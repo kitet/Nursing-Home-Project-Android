@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nursing Home Mng</string>
+    <string name="client_id">947086180829-mljaif7jfjfe2carq5dub3i983md4dih.apps.googleusercontent.com</string>
+    <string name="ptitle">Post Title</string>
+    <string name="pqual">Qualifications</string>
+    <string name="prespo">Responsibilities</string>
+    <string name="pvac">e.g 2</string>
+</resources>

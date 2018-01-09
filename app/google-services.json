@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "947086180829",
+    "firebase_url": "https://nursinghome-5618f.firebaseio.com",
+    "project_id": "nursinghome-5618f",
+    "storage_bucket": "nursinghome-5618f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947086180829:android:ee7bcb261b227208",
+        "android_client_info": {
+          "package_name": "tulipdev.nursinghomemng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947086180829-4akstdiigcj470v5lfrqqkcuu1671ltn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tulipdev.nursinghomemng",
+            "certificate_hash": "69c0300f0392c3fbe8d90d966b7e98a7d32bcd01"
+          }
+        },
+        {
+          "client_id": "947086180829-cvseq095l7l7n872jmt8tvlnkafrs469.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "947086180829-vcftlji9786tmt0gp2pcn7cfe8u7vnk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tulipdev.nursinghomemng",
+            "certificate_hash": "e7e0b32aa1a918ba24751f47baff4d20bbad35c1"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-nFC4wqLKQqRAMrnXbt9v9Y2taeOKA0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947086180829-cvseq095l7l7n872jmt8tvlnkafrs469.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

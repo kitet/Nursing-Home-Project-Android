@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context="tulipdev.nursinghomemng.NursingHomeActivity">
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:onClick="signOut"/>
+
+    <TextView
+        android:layout_below="@+id/signout"
+        android:id="@+id/homeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/homeName"
+        android:text="Address:"/>
+    <TextView
+        android:id="@+id/homeAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="5dp"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/services"
+        android:text="Services:"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_below="@+id/homeAddress"/>
+    <TextView
+        android:id="@+id/homeServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/services"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/newpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeServices"
+        android:gravity="center"
+        android:text="New Post"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/recentposts_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newpost"
+        android:text="Recents Posts (max5): "
+        android:textColor="@android:color/holo_orange_dark" />
+    <ListView
+        android:layout_below="@+id/recentposts_title"
+        android:id="@+id/recentpostsListView"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_height="wrap_content"></ListView>
+
+    <TextView
+        android:paddingTop="10dp"
+        android:id="@+id/cgTitle"
+        android:layout_below="@+id/recentpostsListView"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_height="wrap_content"
+        android:text="Current Caregivers : "/>
+
+    <ListView
+        android:layout_below="@+id/cgTitle"
+        android:id="@+id/listedCaregivers"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_height="wrap_content"></ListView>
+    <!--<ListView-->
+    <!--android:id="@+id/homePosts"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/homeServices">-->
+    <!--</ListView>-->
+
+    <!--<ListView-->
+    <!--android:id="@+id/homeCaregivers"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/homePosts"></ListView>-->
+</RelativeLayout>
