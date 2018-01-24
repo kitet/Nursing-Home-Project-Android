@@ -220,4 +220,9 @@ public class NursingHomeActivity extends AppCompatActivity implements View.OnCli
         startActivity(new Intent(this, SignInActivity.class));
     }
 
+    @Override
+    public void onBackPressed() {
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(this, SignInActivity.class));
+    }
 }
